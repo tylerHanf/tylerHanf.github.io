@@ -13,9 +13,67 @@
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="../css/styles.css" rel="stylesheet" />
+        <link href="../../css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="../../index.html">CSCI-711</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        <!-- Masthead Raytrace-->
+        <header class="masthead_raytrace">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">RayTracing Project</h1>
+                        <a class="btn btn-primary" href="#checkpoint1">Checkpoint 1</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Each Update goes here -->
+        <!-- Checkpoint 1-->
+        <section class="about-section text-center" id="checkpoint1">
+            <div class="container px-4 px-lg-5 d-flex h-100">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1>Checkpoint 1</h1>
+                        <br>
+                        <img class="img-fluid" src="../../assets/img/assignment1.png" alt="..." />
+                        <p class="text-black-50">
+                            This was made in Blender to get initial values for the scene.
+                        </p>
+                        <h4>Scene Settings</h4>
+                        <b>Camera</b> - FOV: 60, Position: (0.5, -5, 3), Rotation: (0, 0, 0), Near Plane: 0.1
+                        <br>
+                        <b>Light</b> - Position: (-0.1, -1, 7), Power in picture: 1000 W, Radius: 0.1
+                        <br>
+                        <b>Plane</b> - Position: (-1.5, 30, 0), Scale: (10, 32, 1) 
+                        <br>
+                        <b>Purple Sphere</b> - Position: (-1.5, 5, 2), Scale: (1, 1, 1)
+                        <br>
+                        <b>Green Sphere</b> - Position: (0.5, 2, 3), Scale: (1.2, 1.2, 1.2)
+                        <br><br><br>
+                        <h4>Scene Setup in OpenGL</h4>
+                        <img class="img-fluid" src="../../assets/img/base_setup_opengl.png" alt="..." />
+                        <p class="text-black-50">
+                            Using the values above, the scene was also setup in OpenGL (no lighting).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Checkpoint 1-->
+        <section class="about-section text-center" id="checkpoint1">
+            <div class="container px-4 px-lg-5 d-flex h-100">
+            </div>
+        </section>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
