@@ -9,6 +9,8 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Markdown embedding library -->
+        <script type="module" src="https://md-block.verou.me/md-block.js"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
@@ -44,29 +46,13 @@
             </div>
         </header>
         <!-- Proposal -->
-        <section class="about-section text-center" id="proposal">
+        <section class="about-section" id="checkpoint1">
             <div class="container px-4 px-lg-5 d-flex h-100">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h1>Proposal</h1>
-                        <br>
-                        <b>Idea</b> - Procedural tree (or plant) generation via L-Systems using OpenGL compute shaders
-                        <br>
-                        <p class="text-black-50">The goal is to use OpenGL compute shaders to procedurally generate trees. My initial idea is to use
-                            L-Systems for the procedural generation. Since the challenge of this unknown, there are options to add 
-                            such as including a GUI to alter generation parameters on the fly (probably using ImGui for the GUI library), 
-                            enhance procedurally generated texture quality, and add scene real-time camera interactivity as needed. 
-                        </p>
-                        <b>Team Members</b> - None
-                        <br>
-                        <b>Project Components</b> - OpenGL with GLEW and GLFW, possibly GLM for the math library (may use custom library), and ImGui for the GUI library if needed
-                        <b>Timeline</b> - Generate L-System and draw at least in 2D the generated trees (Mid-point review)
-                        <b>Final Presentation</b> - This will be a powerpoint with snippets and possible videos demoing the project
-                    </div>
+                    <md-block src="../../markdown/Project/proposal.md"></md-block> <!-- End Proposal -->
                 </div>
             </div>
         </section>
-        <!-- End Proposal -->
         <section class="about-section text-center" id="proposal">
             <div class="container px-4 px-lg-5 d-flex h-100">
             </div>
