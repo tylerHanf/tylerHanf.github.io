@@ -1,13 +1,12 @@
 
 # Proposal
 ### Idea - Procedural tree generation via L-Systems using OpenGL compute shaders
-<font size="4"> The goal is to use OpenGL compute shaders to procedurally generate trees. My initial idea is to use L-Systems for the procedural generation. Since the challenge of this is unknown, there are options to add features as needed
+<font size="4"> The goal is to use OpenGL compute shaders to procedurally generate trees. The entire OpenGL interaction will be from the ground up, only using OpenGL, GLEW, and GLFW. My initial idea is to use L-Systems for the procedural generation. Since the challenge of this is unknown, there are options to add features as needed
 such as including a GUI to alter generation parameters on the fly, 
 enhance procedurally generated texture quality, and add real-time camera interactivity as desired. It would also be fun to test the power of the compute shaders by benchmarking the performance. This could be done by trying to generate many trees on the fly.
 </font>
 ### Team Members 
 <font size="4"> None </font>
-
 ### Project Components
 - Using OpenGL with GLEW and GLFW
 - A custom (very lightweight, possibly header-only) OpenGL library for creating/managing buffers, compiling shaders, etc.
