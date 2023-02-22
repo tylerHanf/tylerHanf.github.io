@@ -1,5 +1,6 @@
 # Checkpoint 3
-<img class="img-fluid" src="../../assets/img/checkpoint3_base_img.png" alt="..." />\
+<img class="img-fluid" src="../../assets/img/checkpoint3_base_img.png" alt="..." /> \
+Basic Checkpoint 3 Render showing the phong shader implementation.
 
 ### Bonus
 <img class="img-fluid" src="../../assets/img/checkpoint3_bonus_mult_lights_img.png" alt="..." /> \
