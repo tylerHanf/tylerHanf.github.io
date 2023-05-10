@@ -1,0 +1,4 @@
+<map id="Graphics::Mesh::NumPrimitives" name="Graphics::Mesh::NumPrimitives">
+<area shape="rect" id="node1" title="Gets the number of primitives in this mesh." alt="" coords="5,13,212,38"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1GeomData.html#abe42ef01b992e3455834810948739f59" title="Gets The number of vertices in this geometry data." alt="" coords="260,5,404,45"/>
+</map>

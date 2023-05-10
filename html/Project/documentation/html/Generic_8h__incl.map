@@ -1,0 +1,6 @@
+<map id="deps/libgraphics/inc/Generic.h" name="deps/libgraphics/inc/Generic.h">
+<area shape="rect" id="node1" title="Provides some generic functionality (regardless of the underlying graphics library)" alt="" coords="127,5,265,45"/>
+<area shape="rect" id="node2" href="$CallbackRegistery_8h.html" title="Provides a registry for setting callbacks from user code to events." alt="" coords="5,93,144,119"/>
+<area shape="rect" id="node3" title=" " alt="" coords="169,93,223,119"/>
+<area shape="rect" id="node4" title=" " alt="" coords="247,93,305,119"/>
+</map>

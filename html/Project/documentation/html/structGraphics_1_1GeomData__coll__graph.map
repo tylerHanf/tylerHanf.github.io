@@ -1,0 +1,4 @@
+<map id="Graphics::GeomData" name="Graphics::GeomData">
+<area shape="rect" id="node1" title="A container of raw mesh data (vertices and possibly indices)" alt="" coords="21,225,169,441"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1VertexAttributes.html" title="Manages vertex attribute definitions." alt="" coords="5,5,185,163"/>
+</map>

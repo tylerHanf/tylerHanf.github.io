@@ -1,0 +1,6 @@
+<map id="Graphics::Mesh" name="Graphics::Mesh">
+<area shape="rect" id="node1" title="Extremely primitive mesh class...this most likely should be overridden/not used when performance matt..." alt="" coords="65,504,192,720"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1Handle.html" title="A handle to to the buffer set." alt="" coords="5,299,132,368"/>
+<area shape="rect" id="node3" href="$structGraphics_1_1GeomData.html" title="A container of raw mesh data (vertices and possibly indices)" alt="" coords="156,225,304,441"/>
+<area shape="rect" id="node4" href="$structGraphics_1_1VertexAttributes.html" title="Manages vertex attribute definitions." alt="" coords="140,5,320,163"/>
+</map>

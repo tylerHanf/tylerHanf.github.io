@@ -1,0 +1,7 @@
+<map id="DrawRuleEditor" name="DrawRuleEditor">
+<area shape="rect" id="node1" title="Draws the main rule editor." alt="" coords="5,92,120,117"/>
+<area shape="rect" id="node2" href="$inc_2GUI_8h.html#a5c157d0175ccf8b2665d8285c54d7542" title="Draws the L&#45;system editor." alt="" coords="189,5,327,31"/>
+<area shape="rect" id="node3" href="$inc_2GUI_8h.html#a0c053e838565a21d1e92a5af8167ffd8" title="Draws the tree editor for modifying config variables." alt="" coords="202,55,314,80"/>
+<area shape="rect" id="node4" href="$deps_2libgraphics_2inc_2GUI_8h.html#a5bd9232a6700f82807411cd1d73255f0" title="Performs the actual GUI rendering." alt="" coords="169,128,347,153"/>
+<area shape="rect" id="node5" href="$deps_2libgraphics_2inc_2GUI_8h.html#adbbc902b332e68ae509acfdb13f1daa0" title="Starts a new GUI frame to be rendered." alt="" coords="168,201,348,227"/>
+</map>

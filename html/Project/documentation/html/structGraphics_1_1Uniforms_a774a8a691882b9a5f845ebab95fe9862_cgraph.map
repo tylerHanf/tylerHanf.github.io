@@ -1,0 +1,5 @@
+<map id="Graphics::Uniforms::GetUniformLoc" name="Graphics::Uniforms::GetUniformLoc">
+<area shape="rect" id="node1" title="A utility function to easily get a uniform location." alt="" coords="5,37,140,77"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1Uniforms.html#aebb1b09961e9788aef40848f60e11054" title="Gets the location of a dynamic uniform object." alt="" coords="188,5,359,45"/>
+<area shape="rect" id="node3" href="$structGraphics_1_1Uniforms.html#ab61d9f63dc564c34d7eb341224d5d155" title="Gets the location of a static uniform." alt="" coords="197,69,349,109"/>
+</map>

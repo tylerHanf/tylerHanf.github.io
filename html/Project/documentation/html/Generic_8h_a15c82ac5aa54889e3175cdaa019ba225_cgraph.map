@@ -1,0 +1,4 @@
+<map id="Graphics::MouseScrollWheelCallback" name="Graphics::MouseScrollWheelCallback">
+<area shape="rect" id="node1" title="Provides the generic wheel callback function to ultimately call the registered callbacks." alt="" coords="5,29,196,69"/>
+<area shape="rect" id="node2" href="$CallbackRegistery_8h.html#a132f2d6dd8924a4d7e4db5149cbbd64b" title="Calls all the registered callbacks." alt="" coords="244,29,419,69"/>
+</map>

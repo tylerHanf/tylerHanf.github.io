@@ -1,0 +1,4 @@
+<map id="Tree" name="Tree">
+<area shape="rect" id="node1" title="Defines a computed tree implementation." alt="" coords="17,211,108,265"/>
+<area shape="rect" id="node2" href="$structTreeConfig.html" title="Initial configuration parameters for generating the tree." alt="" coords="5,5,120,148"/>
+</map>

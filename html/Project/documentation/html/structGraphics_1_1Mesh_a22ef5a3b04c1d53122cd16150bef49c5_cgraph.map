@@ -1,0 +1,4 @@
+<map id="Graphics::Mesh::NumIndices" name="Graphics::Mesh::NumIndices">
+<area shape="rect" id="node1" title="Gets the number of indices in this mesh." alt="" coords="5,13,197,38"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1GeomData.html#afb0746b838b20420aeb43bfd278e6e54" title="Gets the number of indices in the index buffer." alt="" coords="245,5,389,45"/>
+</map>

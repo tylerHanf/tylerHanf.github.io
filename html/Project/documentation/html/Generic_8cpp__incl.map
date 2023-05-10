@@ -1,0 +1,11 @@
+<map id="deps/libgraphics/src/Generic.cpp" name="deps/libgraphics/src/Generic.cpp">
+<area shape="rect" id="node1" title="Provides the generic function implementation." alt="" coords="227,5,365,45"/>
+<area shape="rect" id="node2" href="$Generic_8h.html" title="Provides some generic functionality (regardless of the underlying graphics library)" alt="" coords="157,93,235,119"/>
+<area shape="rect" id="node6" title=" " alt="" coords="260,93,332,119"/>
+<area shape="rect" id="node7" href="$stb__image_8h_source.html" title=" " alt="" coords="356,93,449,119"/>
+<area shape="rect" id="node3" href="$CallbackRegistery_8h.html" title="Provides a registry for setting callbacks from user code to events." alt="" coords="5,167,144,192"/>
+<area shape="rect" id="node4" title=" " alt="" coords="169,167,223,192"/>
+<area shape="rect" id="node5" title=" " alt="" coords="247,167,305,192"/>
+<area shape="rect" id="node8" title=" " alt="" coords="351,167,412,192"/>
+<area shape="rect" id="node9" title=" " alt="" coords="436,167,500,192"/>
+</map>

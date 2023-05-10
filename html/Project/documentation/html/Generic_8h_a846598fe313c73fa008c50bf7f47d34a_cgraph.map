@@ -1,0 +1,4 @@
+<map id="Graphics::MouseButtonCallback" name="Graphics::MouseButtonCallback">
+<area shape="rect" id="node1" title="Provides the generic mouse button callback function to ultimately call the registered callbacks." alt="" coords="5,37,215,62"/>
+<area shape="rect" id="node2" href="$CallbackRegistery_8h.html#a96b6fd95c82bff465fd5c3ba099e0748" title="Calls all the registered callbacks." alt="" coords="263,29,443,69"/>
+</map>

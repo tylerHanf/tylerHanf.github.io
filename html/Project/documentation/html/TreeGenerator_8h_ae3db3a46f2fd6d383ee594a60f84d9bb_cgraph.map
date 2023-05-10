@@ -1,0 +1,28 @@
+<map id="TreeToMesh" name="TreeToMesh">
+<area shape="rect" id="node1" title="Creates a mesh from a tree." alt="" coords="5,429,99,454"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1Mesh.html#a60fb55c2d3f8c8533a165ff2264265f8" title="Actually sends data to the GPU." alt="" coords="147,306,348,331"/>
+<area shape="rect" id="node21" href="$structGraphics_1_1VertexAttributes.html#a785c911c08631a267149ad36b4deb35d" title="Adds an attribute to this layout." alt="" coords="159,392,335,432"/>
+<area shape="rect" id="node24" href="$structGraphics_1_1Mesh.html#abc4fae83f727814e9b59f8d66556f8c9" title="Assigns a data object to this mesh." alt="" coords="163,457,332,482"/>
+<area shape="rect" id="node26" href="$structGraphics_1_1GeomData.html#a33c3d21673ade76b2a1d9834844405f9" title="Computes and caches the size of the vertex and index buffers." alt="" coords="175,507,319,547"/>
+<area shape="rect" id="node3" href="$classGraphics_1_1BufferManager.html#a4a48fb5b00669b8fcc3f57ef48ce60c8" title="A high level function to add data to the buffer manager." alt="" coords="403,280,570,320"/>
+<area shape="rect" id="node4" href="$structGraphics_1_1GLBuffer.html#a257b4658dc19586aaa10fd5ab010731b" title="Appends data to the buffer." alt="" coords="627,70,791,95"/>
+<area shape="rect" id="node7" href="$structGraphics_1_1GeomData.html#a05fde000fa2feac98a221e387e1c0923" title="Gets the pointer to the index buffer." alt="" coords="637,120,781,160"/>
+<area shape="rect" id="node8" href="$structGraphics_1_1GeomData.html#a332708cc504b8067b64937bde515ad8c" title="Gets a pointer to the vertex buffer." alt="" coords="637,184,781,224"/>
+<area shape="rect" id="node9" href="$structGraphics_1_1GeomData.html#a5b7a24771e7d0327831062c6c25c97a9" title="Gets the size of the indices in bytes of the element or index buffer." alt="" coords="637,248,781,288"/>
+<area shape="rect" id="node10" href="$classGraphics_1_1BufferManager.html#a8cbb2e5a63130ef02558514d5c932504" title="Creates a new buffer set." alt="" coords="625,312,792,352"/>
+<area shape="rect" id="node17" href="$structGraphics_1_1GLBuffer.html#a023bc189ce71331cb049d008f562db20" title="Gets the current number of bytes used in this buffer." alt="" coords="640,376,777,416"/>
+<area shape="rect" id="node18" href="$structGraphics_1_1GeomData.html#afb0746b838b20420aeb43bfd278e6e54" title="Gets the number of indices in the index buffer." alt="" coords="637,440,781,480"/>
+<area shape="rect" id="node19" href="$structGraphics_1_1GeomData.html#abe42ef01b992e3455834810948739f59" title="Gets The number of vertices in this geometry data." alt="" coords="637,504,781,544"/>
+<area shape="rect" id="node20" href="$structGraphics_1_1GeomData.html#afcdf7f6635efaab3a9bfddf8a7463fdf" title="Gets the size of the vertex buffer in bytes." alt="" coords="637,5,781,45"/>
+<area shape="rect" id="node5" href="$structGraphics_1_1GLBuffer.html#adde51a3df60a40086d9eda40a01e1b00" title="Binds this buffer to be the active buffer." alt="" coords="1120,127,1253,167"/>
+<area shape="rect" id="node6" href="$structGraphics_1_1GLBuffer.html#a2aab6d0adf3119d906d1bd4efe052baf" title="Sets the currently bound buffer to vbo." alt="" coords="875,101,1009,141"/>
+<area shape="rect" id="node11" href="$structGraphics_1_1VertexArrayObject.html#a841fcc20e6afcedbd97e71631762d885" title="Requests OpenGL to bind this vao." alt="" coords="1092,273,1281,313"/>
+<area shape="rect" id="node12" href="$structGraphics_1_1GLBuffer.html#af81d774f1b23bd7bd2c00a4ecab379d2" title="Requests for OpenGL to create the buffer." alt="" coords="875,331,1009,371"/>
+<area shape="rect" id="node13" href="$structGraphics_1_1VertexArrayObject.html#a682d6bba89877038cd41d8cb26c897cc" title="Requests OpenGL to bind the current vao to 0 (no vao bound)" alt="" coords="1092,363,1281,403"/>
+<area shape="rect" id="node14" href="$structGraphics_1_1VertexArrayObject.html#a9b85abfcb3c6e470db64f4e363b2d61e" title="Requests OpenGL to generate a vao." alt="" coords="847,445,1037,485"/>
+<area shape="rect" id="node15" href="$structGraphics_1_1GLBuffer.html#ad0d91ba469440448af74790c1b56b589" title="Creates an openGL buffer that does not correlate with a vao." alt="" coords="875,165,1009,205"/>
+<area shape="rect" id="node16" href="$structGraphics_1_1VertexAttributes.html#a95688e7ea472d392ab789f517d93e315" title="Sets the vertex attributes for a given vao, vbo pair." alt="" coords="840,230,1044,255"/>
+<area shape="rect" id="node22" href="$structGraphics_1_1VertexAttributes.html#a1a046873e1db1807adc79b3292ddc810" title="Computes the offset value for the layout." alt="" coords="399,345,575,385"/>
+<area shape="rect" id="node23" href="$structGraphics_1_1VertexAttributes.html#ade3cdb17ec4a0f3e3dc859850a219909" title="Used to determine the strive of this vertex attribute layout." alt="" coords="399,409,575,449"/>
+<area shape="rect" id="node25" href="$structGraphics_1_1Mesh.html#ae7ab9aa8ecbb2f92cb9c7a08b27d1065" title="Gets the number of vertices in this mesh." alt="" coords="396,477,577,502"/>
+</map>

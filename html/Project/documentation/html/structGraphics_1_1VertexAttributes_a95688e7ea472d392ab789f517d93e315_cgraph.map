@@ -1,0 +1,5 @@
+<map id="Graphics::VertexAttributes::Set" name="Graphics::VertexAttributes::Set">
+<area shape="rect" id="node1" title="Sets the vertex attributes for a given vao, vbo pair." alt="" coords="5,45,209,70"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1GLBuffer.html#adde51a3df60a40086d9eda40a01e1b00" title="Binds this buffer to be the active buffer." alt="" coords="285,5,419,45"/>
+<area shape="rect" id="node3" href="$structGraphics_1_1VertexArrayObject.html#a841fcc20e6afcedbd97e71631762d885" title="Requests OpenGL to bind this vao." alt="" coords="257,69,447,109"/>
+</map>

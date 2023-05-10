@@ -1,0 +1,10 @@
+<map id="Graphics::BufferManager::MakeSet" name="Graphics::BufferManager::MakeSet">
+<area shape="rect" id="node1" title="Creates a new buffer set." alt="" coords="5,149,172,189"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1VertexArrayObject.html#a841fcc20e6afcedbd97e71631762d885" title="Requests OpenGL to bind this vao." alt="" coords="472,69,661,109"/>
+<area shape="rect" id="node3" href="$structGraphics_1_1GLBuffer.html#af81d774f1b23bd7bd2c00a4ecab379d2" title="Requests for OpenGL to create the buffer." alt="" coords="255,120,389,160"/>
+<area shape="rect" id="node4" href="$structGraphics_1_1VertexArrayObject.html#a682d6bba89877038cd41d8cb26c897cc" title="Requests OpenGL to bind the current vao to 0 (no vao bound)" alt="" coords="472,152,661,192"/>
+<area shape="rect" id="node5" href="$structGraphics_1_1VertexArrayObject.html#a9b85abfcb3c6e470db64f4e363b2d61e" title="Requests OpenGL to generate a vao." alt="" coords="227,235,417,275"/>
+<area shape="rect" id="node6" href="$structGraphics_1_1GLBuffer.html#ad0d91ba469440448af74790c1b56b589" title="Creates an openGL buffer that does not correlate with a vao." alt="" coords="255,299,389,339"/>
+<area shape="rect" id="node7" href="$structGraphics_1_1VertexAttributes.html#a95688e7ea472d392ab789f517d93e315" title="Sets the vertex attributes for a given vao, vbo pair." alt="" coords="220,19,424,45"/>
+<area shape="rect" id="node8" href="$structGraphics_1_1GLBuffer.html#adde51a3df60a40086d9eda40a01e1b00" title="Binds this buffer to be the active buffer." alt="" coords="500,5,633,45"/>
+</map>

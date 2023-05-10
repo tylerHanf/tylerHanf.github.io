@@ -1,0 +1,4 @@
+<map id="Graphics::UniformBuffer" name="Graphics::UniformBuffer">
+<area shape="rect" id="node1" title="Provides a basic uniform buffer implementation." alt="" coords="5,343,172,500"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1GLBuffer.html" title="A generic OpenGL buffer implementation." alt="" coords="14,5,163,280"/>
+</map>

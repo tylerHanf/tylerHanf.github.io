@@ -1,0 +1,6 @@
+<map id="Graphics::BuffSet" name="Graphics::BuffSet">
+<area shape="rect" id="node1" title="Provides a set of buffers with a vao." alt="" coords="241,357,371,412"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1VertexAttributes.html" title="Manages vertex attribute definitions." alt="" coords="5,64,185,221"/>
+<area shape="rect" id="node3" href="$structGraphics_1_1VertexArrayObject.html" title="Provides a vertex array object implementation." alt="" coords="209,93,403,192"/>
+<area shape="rect" id="node4" href="$structGraphics_1_1GLBuffer.html" title="A generic OpenGL buffer implementation." alt="" coords="427,5,577,280"/>
+</map>

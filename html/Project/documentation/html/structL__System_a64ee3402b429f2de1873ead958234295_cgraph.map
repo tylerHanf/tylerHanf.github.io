@@ -1,0 +1,4 @@
+<map id="L_System::MakeFromFile" name="L_System::MakeFromFile">
+<area shape="rect" id="node1" title="Constructs an L&#45;System from a file." alt="" coords="5,5,176,31"/>
+<area shape="rect" id="node2" href="$structL__System.html#abd5e6fe371ff83f5238fdd2d4ad325ce" title="Reads a file into raw file data as a string." alt="" coords="224,5,381,31"/>
+</map>

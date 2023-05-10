@@ -1,0 +1,3 @@
+<map id="Graphics::BroadcastScrollCallback" name="Graphics::BroadcastScrollCallback">
+<area shape="rect" id="node1" title="Calls all the registered callbacks." alt="" coords="5,29,180,69"/>
+</map>

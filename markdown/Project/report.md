@@ -1,0 +1,24 @@
+## Report
+### Overview
+The purpose of this project was to develop a system for procedurally generating 3D trees using L-Systems. However, the intent was to build this system from the ground up, relying minimally on basic OpenGL libraries including GLFW and GLEW. Therefore, a small graphics library to easily manage OpenGL functionality and data was also made. This allowed for exploration of various aspects of OpenGL and the graphics pipeline including how to efficiently manage data and reduce calls to the GPU.
+
+### Approach
+This project consisted of three main parts: developing the graphics library, creating the l-system parser and resolver, and mapping the resolved l-system to a rendered mesh. 
+
+The first component was developed in an attempt to produce a minimal library for easily working with OpenGL. It provides easy window creation, input/window event handling, OpenGL buffer creation, somewhat intelligent buffer management, and shader program creation including program introspection with uniform variable and uniform block mapping. The window system utilizes the GLFW window management and event functions. It provides a way of handling window resizes and enables user code to add hooks into mouse and key events. The OpenGL buffer creation and management system is designed for flexibility. Namely, one can just as easily use the underlying buffer creation utilities manually, or let the buffer manager provide autonomous buffer allocation based on the input data. The buffer manager attempts to provide semi-intelligent management by storing data of the same vertex layout into the same buffer. Of course this is not a full batch renderer, but it is an attempt in that direction. The library also provides minimal GUI support by utilizing a 3rd party library called DearImGUI. While user code will need to work with the DearImGUI API directly, this graphics library does provide initialization and destruction functions for it.
+
+The L-System parser and resolver functions by reading in a string of grammer rules (either from a raw string or from file), and generates a list of axioms which the define the production of a given token. The L-System can then be called to resolve the input system to a given recursive depth, which will provide the final product string. The L-System parser is designed to be independent of the tree-generation specific code, so this parser can be used for any L-System.
+
+The tree generation component is built on top of the OpenGL library and the L-System component. It takes a resolved L-System as input and generates a list of branches that make up the tree. Each branch contains the start and end points in model space, the start and end thicknesses, and the curviness of the branch. The list of branches is then used to generate vertex data. While some iteration took place to determine how to generate the mesh data, the end solution is to render a pipe over a 4-point bezier curve with interpolated radii between the start and end thicknesses. The control points of the bezier curve consist of the first endpoint, the direction of the first endpoint from it's parent point, the halfway point between the two endpoints, and the last endpoint. The curviness factor is used to determine the distance from the first control point to the second control point where the larger the distance generates a curvier branch. For efficiency, the control points and endpoint radii are input data to a geometry shader where the pipe is generated.
+
+With the implementation of GUI capabilities in the graphics library, the goal of the project evolved to become a tree generation sandbox. This allows for modifying the L-System behavior to generate different tree structures on the fly.
+
+### Results
+<img class="img-fluid" src="../../assets/img/Results.gif" alt="..." /> /
+
+<img class="img-fluid" src="../../assets/img/result_2.gif" alt="..." /> 
+
+### Future Enhancements
+A majority of future work is focused on tree generation. Namely, the pipe generation is not completely implemented yet so that must be resolved. Furthermore, additional tokens to the tree grammer could enable more flexibility. Specifically, a probability token could be used for more random and realistic tree generation. Lastly, some procedural texture and leaf implementations would be a great too.
+
+The graphics library could be improved by implementing an actual render queue. Instead of drawing meshes directly, mesh draw requests could instead pass a draw command to the buffer manager. This could enable efficient rendering because the draw commands could be sorted by order of least OpenGL state change. Furthermore, the OpenGL multi-draw commands could then be leveraged for minimal CPU to GPU interactions. The buffer manager would then dispatch draw commands as desired when it's time to render.

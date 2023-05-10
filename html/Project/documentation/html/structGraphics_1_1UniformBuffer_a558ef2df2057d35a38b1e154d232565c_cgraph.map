@@ -1,0 +1,6 @@
+<map id="Graphics::UniformBuffer::Set" name="Graphics::UniformBuffer::Set">
+<area shape="rect" id="node1" title="Sets the uniform buffer." alt="" coords="5,45,196,70"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1GLBuffer.html#abd98ae1d6bc2e2f620943e909919f634" title="Modifies existing data in&#45;place." alt="" coords="244,37,377,77"/>
+<area shape="rect" id="node3" href="$structGraphics_1_1GLBuffer.html#adde51a3df60a40086d9eda40a01e1b00" title="Binds this buffer to be the active buffer." alt="" coords="425,5,559,45"/>
+<area shape="rect" id="node4" href="$structGraphics_1_1GLBuffer.html#a2aab6d0adf3119d906d1bd4efe052baf" title="Sets the currently bound buffer to vbo." alt="" coords="425,69,559,109"/>
+</map>

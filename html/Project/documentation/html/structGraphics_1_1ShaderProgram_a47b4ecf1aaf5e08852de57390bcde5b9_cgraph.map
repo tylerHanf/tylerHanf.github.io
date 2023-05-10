@@ -1,0 +1,6 @@
+<map id="Graphics::ShaderProgram::SetUniform" name="Graphics::ShaderProgram::SetUniform">
+<area shape="rect" id="node1" title="Sets a vec4 uniform." alt="" coords="5,37,177,77"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1Uniforms.html#a774a8a691882b9a5f845ebab95fe9862" title="A utility function to easily get a uniform location." alt="" coords="225,37,360,77"/>
+<area shape="rect" id="node3" href="$structGraphics_1_1Uniforms.html#aebb1b09961e9788aef40848f60e11054" title="Gets the location of a dynamic uniform object." alt="" coords="408,5,579,45"/>
+<area shape="rect" id="node4" href="$structGraphics_1_1Uniforms.html#ab61d9f63dc564c34d7eb341224d5d155" title="Gets the location of a static uniform." alt="" coords="417,69,569,109"/>
+</map>

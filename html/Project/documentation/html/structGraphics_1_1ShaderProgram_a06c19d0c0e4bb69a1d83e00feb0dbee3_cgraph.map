@@ -1,0 +1,4 @@
+<map id="Graphics::ShaderProgram::SetUniformBuffer" name="Graphics::ShaderProgram::SetUniformBuffer">
+<area shape="rect" id="node1" title="Sets a binding between the program and a uniform buffer." alt="" coords="5,5,177,45"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1Uniforms.html#af0ac42ad6834a922f44d392108385e7c" title="Gets the Block Idx from the block name." alt="" coords="225,5,360,45"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Graphics::GLBuffer::Add" name="Graphics::GLBuffer::Add">
+<area shape="rect" id="node1" title="Appends data to the buffer." alt="" coords="5,45,169,70"/>
+<area shape="rect" id="node2" href="$structGraphics_1_1GLBuffer.html#adde51a3df60a40086d9eda40a01e1b00" title="Binds this buffer to be the active buffer." alt="" coords="217,5,351,45"/>
+<area shape="rect" id="node3" href="$structGraphics_1_1GLBuffer.html#a2aab6d0adf3119d906d1bd4efe052baf" title="Sets the currently bound buffer to vbo." alt="" coords="217,69,351,109"/>
+</map>
